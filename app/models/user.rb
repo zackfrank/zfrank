@@ -14,4 +14,5 @@
 class User < ApplicationRecord
   validates :email, uniqueness: true
   validates :first_name, :last_name, :email, :zip, presence: true
+  validates :zip, numericality: { only_integer: true }
 end
