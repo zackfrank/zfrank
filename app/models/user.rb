@@ -12,4 +12,6 @@
 #  updated_at :datetime         not null
 #
 class User < ApplicationRecord
+  validates :email, uniqueness: true
+  validates :first_name, :last_name, :email, :zip, presence: true
 end
