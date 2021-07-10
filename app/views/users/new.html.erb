@@ -1,4 +1,4 @@
-<div class="page-container">
+<div class="page-container user-view">
   <h2>
     Become a fan of zfrank<br>
     Join the mailing list!
@@ -10,7 +10,7 @@
         <%= f.input :first_name, required: true %>
         <%= f.input :last_name, required: true %>
         <%= f.input :email, required: true %>
-        <%= f.input :zip, label: 'Zip Code', required: true %>
+        <%= f.input :zip, label: 'Zip Code', minlength: 5, maxlength: 5, required: true %>
         <%= f.hidden_field :source, label: 'Source', value: 'Chicago Auto Show', required: true %>
         <%= f.button :submit, class: "btn-primary" %>
       <% end %>

@@ -1,3 +1,9 @@
+body {
+  max-width: 800px;
+  min-width: 600px;
+  margin: auto;
+}
+
 .container {
   padding: 0;
 }
@@ -6,8 +12,16 @@
   padding: 5%;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  max-width: 800px;
+  min-width: 600px;
+  text-align: center;
+  z-index: -999;
+}
+
 .header-image {
-  height: 250px;
   width: 100%;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -17,9 +31,24 @@
 }
 
 h2 {
+  font-family: 'Lustria', serif;
+  /*font-family: 'Trocchi', serif;*/
+  font-size: 50px;
   text-align: center;
-  line-height: 28px;
+  line-height: 55px;
   margin-bottom: 20px;
+}
+
+.user-view {
+  max-width: 750px;
+  min-width: 450px;
+  background-color: white;
+  opacity: 0.9;
+  /*padding: 25px;*/
+  border-radius: 6px;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 15px;
 }
 
 .social-link {
