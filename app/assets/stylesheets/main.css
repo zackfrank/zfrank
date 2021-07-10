@@ -24,6 +24,7 @@ header {
 .header-image {
   width: 100%;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
 }
 
 .fb-like span {
