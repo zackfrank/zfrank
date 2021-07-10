@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   root to: 'users#new'
 
   resources :users, only: %i[new create]
+
+  get "/p/:page" => "pages#show"
 end

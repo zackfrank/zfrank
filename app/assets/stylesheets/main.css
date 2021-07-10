@@ -66,3 +66,16 @@ h2 {
   margin-top: 4%;
   width: 100%;
 }
+
+.privacy {
+  height: 80vh;
+  width: 90%;
+  background-color: white;
+  opacity: 0.9;
+  padding: 25px;
+  border-radius: 6px;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 15px;
+  text-align: center;
+}
