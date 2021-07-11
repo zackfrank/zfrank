@@ -17,10 +17,11 @@ class UsersController < ApplicationController
 
   def formatted_permitted_params
     {
-      **permitted_params.slice(:source, :zip),
+      **permitted_params.slice(:zip),
       first_name: permitted_params[:first_name].downcase.capitalize,
       last_name: permitted_params[:last_name].downcase.capitalize,
-      email: permitted_params[:email].downcase
+      email: permitted_params[:email].downcase,
+      source: permitted_params[:source].capitalize
     }
   end
 
