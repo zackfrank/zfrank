@@ -11,3 +11,4 @@
 // about supported directives.
 //
 //= require bootstrap/dist/js/bootstrap.bundle.min
+//= require_tree .
