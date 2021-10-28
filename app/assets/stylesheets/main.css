@@ -79,6 +79,27 @@ h5 {
   text-align: center;
 }
 
+.bio {
+  width: 90%;
+  background-color: white;
+  opacity: 0.9;
+  padding: 25px;
+  border-radius: 6px;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.epk-section {
+  margin-top: 25px;
+}
+
 @media (min-width: 576px) {
   
   .page-container {
