@@ -79,6 +79,10 @@ h5 {
   text-align: center;
 }
 
+.epk-image {
+  width: 100%;
+}
+
 .bio {
   width: 90%;
   background-color: white;
